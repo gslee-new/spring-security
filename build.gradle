@@ -8,6 +8,10 @@ group = 'com.example'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
 
+bootJar {
+    archiveName('Security-spring.jar')
+}
+
 repositories {
     mavenCentral()
 }
